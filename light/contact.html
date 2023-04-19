@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+        td{
+            padding: 10px;
+        }
+        input{
+            width: 200px;
+        }
+    </style>
+  </head>
+  <body>
+    <aside class="left">
+      <img src="../img/me.png" alt="Profile photo" class="pic" />
+      <h1 class="name">Tamilnambi D</h1>
+    </aside>
+    <main class="main">
+      <nav class="navbar">
+        <a href="me.html">About Me</a>
+        <a href="education.html">Education</a>
+        <a href="experience.html">Experience</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="buttons">
+        <button disabled="disabled">Light</button>
+        <a href="../dark/contact.html" style="padding:0px;margin-left: -5px;"><button class="dark">Dark</button></a>
+      </div>
+      <article style="margin-top: 10px">
+        <h1>Contact Me</h1>
+        
+        <p>Thank you for visiting my portfolio website, and I look forward to connecting with you soon!</p>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="name" id="name" required></td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td><input type="number" name="phone" id="phone" min="10" max="10" required></td>
+            </tr>
+            <tr>
+                <td>Email id</td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td>Message</td>
+                <td><textarea name="message" rows="10" cols="40"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Send Message"></td>
+            </tr>
+        </table>
+        
+      </article>
+    </main>
+  </body>
+</html>

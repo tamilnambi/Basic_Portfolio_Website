@@ -1,0 +1,46 @@
+body {
+    color: rgb(10, 10, 25);
+    font-family: 'Poppins', sans-serif;
+  }
+  .name {
+    margin-left: 260px;
+  }
+  .pic {
+    border-radius: 50%;
+    width: 50%;
+    margin-left: 200px;
+    margin-top: 175px;
+  }
+  .left {
+    width: 40%;
+    float: left;
+    height: 500px;
+  }
+  .main {
+    float: left;
+    width: 55%;
+  }
+  a{
+    text-decoration: none;
+    color: rgb(10, 10, 25);
+    padding: 30px;
+  }
+  .navbar {
+    margin-top: 20px;
+  }
+  article {
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+button{
+  width: 60px;
+  height: 35px;
+}
+.dark:hover{
+  color: white;
+  background-color: rgb(10, 10, 25);
+}
+.buttons{
+  margin-top: 25px;
+  text-align: end;
+}
